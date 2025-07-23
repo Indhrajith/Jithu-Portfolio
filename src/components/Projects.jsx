@@ -30,7 +30,7 @@ const projectList = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="min-h-screen px-8 py-16 ml-20 md:ml-64">
+    <section id="projects" className="min-h-screen px-8 py-16">
       {/* Animated Section Title */}
       <motion.h2
         initial={{ opacity: 0, y: -30 }}

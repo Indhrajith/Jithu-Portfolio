@@ -40,7 +40,7 @@ const contactLinks = [
 const Contact = () => (
   <section
     id="contact"
-    className="min-h-screen px-6 py-16 ml-0 md:ml-64 flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b]"
+    className="min-h-screen px-6 py-16 flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] to-[#1e293b]"
   >
     <h2 className="text-4xl font-extrabold mb-12 text-center text-cyan-400 drop-shadow-lg">
       Contact Me

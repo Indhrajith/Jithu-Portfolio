@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <section
       id="intro"
-      className="min-h-screen relative ml-20 md:ml-64 flex items-center justify-center px-4"
+      className="min-h-screen flex items-center justify-center px-4"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}

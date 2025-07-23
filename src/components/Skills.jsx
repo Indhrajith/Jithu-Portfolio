@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => (
-  <section id="skills" className="min-h-screen px-8 py-16 ml-20 md:ml-64">
+  <section id="skills" className="min-h-screen px-8 py-16">
     <h2 className="text-4xl font-bold mb-8 text-center text-cyan-400">Skills</h2>
 
     {/* Software Tools / Design */}

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col items-center justify-center px-6 py-16 ml-20 md:ml-64"
+      className="min-h-screen flex flex-col items-center justify-center px-6 py-16"
     >
       {/* Section Title */}
       <motion.h2
@@ -45,7 +45,7 @@ const About = () => {
         viewport={{ once: true }}
         className="grid md:grid-cols-2 gap-6 max-w-5xl w-full text-gray-300"
       >
-        {/* Card 1 */}
+        {/* Cards */}
         <div className="bg-white/5 p-6 rounded-xl border border-white/10 shadow-lg hover:shadow-cyan-500/20 transition duration-500">
           <h3 className="text-xl font-semibold text-cyan-300 mb-2">Education & Core</h3>
           <p>
@@ -54,7 +54,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-white/5 p-6 rounded-xl border border-white/10 shadow-lg hover:shadow-cyan-500/20 transition duration-500">
           <h3 className="text-xl font-semibold text-cyan-300 mb-2">Industry Experience</h3>
           <p>
@@ -64,7 +63,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Card 3 */}
         <div className="bg-white/5 p-6 rounded-xl border border-white/10 shadow-lg hover:shadow-cyan-500/20 transition duration-500">
           <h3 className="text-xl font-semibold text-cyan-300 mb-2">Project Highlights</h3>
           <p>
@@ -73,7 +71,6 @@ const About = () => {
           </p>
         </div>
 
-        {/* Card 4 */}
         <div className="bg-white/5 p-6 rounded-xl border border-white/10 shadow-lg hover:shadow-cyan-500/20 transition duration-500">
           <h3 className="text-xl font-semibold text-cyan-300 mb-2">Current Goal</h3>
           <p>
